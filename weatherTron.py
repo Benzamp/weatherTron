@@ -174,15 +174,6 @@ def showSelectedYearData(yearStart, yearEnd):
       formatted = ('{}      {}      {}       {}'.format(line[0], line[1], line[2], line[3]))
       print(formatted)
 
-#****************** Data to list **************
-# Reads selected weather data into a list to be used by other functions
-# Receives the start year, end year, and type of data required
-#hints: accept the start year, end year and the user selection.
-#     Call to open the file
-#     Create a list
-#     Check each line to see if it contains the date you need to gather data from
-#     Use a loop to pull the relevant data for each user selection into a list
-#     Return the list of just the dates and relevant data
 def wDataIntoList():
   file = openFile()
   myList = []
